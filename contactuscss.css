@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 1260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+div.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1180px;
+    margin-top: 15px;
+}
+
+div.menubutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 520px;
+    margin-left: 300px;
+}
+
+div.menubutton1,
+div.menubutton2,
+div.menubutton3,
+div.menubutton4,
+div.menubutton5 {
+    width: 100px;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+div.menuicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 300px;
+    margin-left: 100px;
+    padding-left: 54px;
+}
+div.menuicon1,
+div.menuicon2,
+div.menuicon3 {
+    margin-right: 20px;
+}
+
+div.contactus {
+    display: flex;
+    flex-direction: column;
+    width: 1180;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+
+div.suscribedcard {
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 71px;
+}
+
+div.recommendationrecipie {
+    display: flex;
+    flex-direction: column;
+    width: 1180px;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 69px;
+}
+div.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
